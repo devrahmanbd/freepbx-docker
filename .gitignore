@@ -1,0 +1,12 @@
+*.txt
+source/*.tar.gz
+source/*.tgz
+.DS_Store*
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+.history/
+*.vsix
