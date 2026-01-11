@@ -113,4 +113,4 @@ else
 
 fi
 
-sudo docker compose exec -it freepbx certbot --apache -d pbx.cloudman.one --email admin@cloudman.one --agree-tos --redirect -n
+sudo docker compose exec -it freepbx certbot -v --apache -d pbx.cloudman.one --email admin@cloudman.one --agree-tos --redirect -n
