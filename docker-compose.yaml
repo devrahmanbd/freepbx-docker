@@ -43,7 +43,7 @@ services:
 
   freepbx:
     restart: always
-    image: escomputers/freepbx:17
+    image: cloudpbx:2
     cap_add:
       - NET_ADMIN
     volumes:
